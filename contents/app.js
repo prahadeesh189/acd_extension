@@ -1,15 +1,6 @@
 
 
 
-console.log( "hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii" );
-console.log($('ytd-comments#comments'));
-
-
-
-
-
-
-
 var commentIndex = 0;
 
 
