@@ -40,8 +40,6 @@ $(document).on('DOMSubtreeModified', async (event) => {
                             "Access-Control-Allow-Private-Network": "true",
                         },
                         type: 'POST',
-                        cache: false,
-                        xhrFields: { withCredentials: true },
                         url: "http://127.0.0.1:8000/predict",
                         data: JSON.stringify({
                             "comment_id": commentIndex,
